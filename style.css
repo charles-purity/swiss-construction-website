@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -----------navigation------------ */
+#nav-bar {
+    background: #efef;
+    
+   
+
+  
+}
+
+#nav-bar ul {
+    list-style: none;
+    
+
+}
+
+#nav-bar ul li {
+    display: inline-block;
+    margin-right: 25px;
+    /* padding-top: 5px; */
+    
+    
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000099;
+    font-weight: bolder;
+}
+
+#nav-bar .menu-icon {
+    width: 28px;
+    display: none;
+    
+}
+
+ /* .logo {
+    padding-top: 10px;
+} */
+
+.top-view ul {
+    list-style: none;
+}
+
+.top-view ul li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+}
+
+
+
+#top {
+    background: #000099;
+    
+    margin-top: 5px;
+}
+
+.top-right {
+    float: right;
+    font-size: 16px;
+}
+
+.fa-facebook {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fa-twitter {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* ----------------background---------------- */
+#background {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/header3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.title h1  {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: #ffff;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+
+.button  {
+    top: 75%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: #ffff;
+    text-align: center;
+}
+
+.button-click { 
+    text-decoration: none;
+    border: 1px solid #fff;
+    color: #fff !important;
+    padding: 10px 30px;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to left,#ff0000,#000099);
+    border-radius: 30px;
+ 
+    
+}
+
+#background a {
+    text-decoration: none;
+}
+
+/* ---------------services---------------- */
+
+#services {
+    background: #efefef;
+}
+
+#services h1 {
+    text-align: center;
+    color: #000;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+#services h1::before {
+    content: '';
+    background: linear-gradient(to left,#ff0000,#000099);
+    display: block;
+    height: 5px;
+    width: 90px;
+    margin: 5px auto 5px;
+}
+
+#services h1::after {
+    content: '';
+    background: linear-gradient(to left,#ff0000,#000099);
+    display: block;
+    height: 5px;
+    width: 90px;
+    margin: 5px auto 5px;
+}
+
+#services img {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#services h2 {
+    color:  #B2004C;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+
+/* ----------------project page----------------- */
+
+#project {
+    background: #efefef;
+}
+
+#project h1 {
+    text-align: center;
+    color: #000;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+#project h1::before {
+    content: '';
+    background: linear-gradient(to left,#ff0000,#000099);
+    display: block;
+    height: 5px;
+    width: 90px;
+    margin: 5px auto 5px;
+}
+
+#project h1::after {
+    content: '';
+    background: linear-gradient(to left,#ff0000,#000099);
+    display: block;
+    height: 5px;
+    width: 90px;
+    margin: 5px auto 5px;
+
+}
+
+#project img {
+    padding-bottom: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#project .btn {
+    border: 1px solid #000;
+    background: linear-gradient(to left,#ff0000,#000099);
+    color: #fff;
+    width: 30%;
+    border-radius: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+/* ----------------About the construction company------------------- */
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #efefef;
+}
+
+#about h1 {
+    text-align: center;
+    color: #000;
+}
+
+
+#about h1::before {
+    content: '';
+    background: linear-gradient(to left,#ff0000,#000099);
+    display: block;
+    height: 5px;
+    width: 90px;
+    margin: 5px auto 5px;
+}
+
+#about h1::after {
+    content: '';
+    background: linear-gradient(to left,#ff0000,#000099);
+    display: block;
+    height: 5px;
+    width: 90px;
+    margin: 5px auto 5px;
+
+}
+
+#about p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #73008C;
+    text-align: justify;
+}
+
+#about .btn {
+    border: 1px solid #000;
+    background: linear-gradient(to left,#ff0000,#000099);
+    color: #fff;
+    width: 50%;
+    border-radius: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/*------------------------documentary----------------------------------*/
+
+#achieve {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background:linear-gradient(to left,#ff0000,#000099);
+    
+}
+
+#achieve h3 {
+    color:  #ffff;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#achieve p {
+    text-align: center;
+    font-size: 20px;
+    color:  #fff;
+}
+
+/* -------------------experience------------------- */
+
+#quality {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background:  	 #e6e6ff;
+}
+
+#quality .fa-users {
+    font-size: 80px;
+}
+
+#quality .fa-building {
+    font-size: 80px;
+}
+
+#quality .fa-list {
+    font-size: 80px;
+}
+
+#quality .fa-university {
+    font-size: 80px;
+}
+
+#quality h3 {
+    color: #990000;
+}
+
+/* -------------------contact------------------- */
+
+
+#contact .fa-university {
+    font-size: 30px;
+}
+
+#contact p {
+    font-size: 20px;
+    
+}
+
+
+#contact  h1::before {
+    content: '';
+    background: linear-gradient(to left,#ff0000,#000099);
+    display: block;
+    height: 5px;
+    width: 90px;
+    margin: 5px auto 5px;
+}
+
+#contact  h1::after {
+    content: '';
+    background: linear-gradient(to left,#ff0000,#000099);
+    display: block;
+    height: 5px;
+    width: 90px;
+    margin: 5px auto 5px;
+    
+
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+#contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-form {
+    padding-top: 50px;
+}
+
+#contact .btn {
+    border: 1px solid #000;
+    background: linear-gradient(to left,#ff0000,#000099);
+    color: #fff;
+    width: 100%;
+    border-radius: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+
+/* ------------------footer----------------- */
+
+#footer {
+    background: #000033;
+
+}
+
+#footer p {
+    color: #ffff;
+    font-size: 30px;
+}
+
+#footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer ul li a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#footer h6 {
+    color: #ffff;
+    text-align: center;
+}
+
+#footer .fa-twitter {
+    color:  #007acc;
+    font-size: 50px;
+}
+
+#footer .fa-whatsapp {
+    color: #00ff00;
+    font-size: 50px;
+}
+
+#footer .fa-instagram {
+    color:  #a3a375;
+    font-size: 50px;
+
+}
+
+#footer .fa-facebook {
+    color: #3333ff;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+/* -----------media query for menu-------- */
+
+@media only screen and (max-width: 800px){
+  nav ul{
+       position: absolute;
+       top: 70px;
+       left: 0;
+       width: 100%;
+       background:  #fff;
+       overflow: hidden;
+       transition:  1s ease;
+   } 
+
+  #nav-bar nav ul li {
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 10px;
+  
+  }
+    #nav-bar .menu-icon {
+      display: block;
+      cursor: pointer;
+  }
+}
+
