@@ -7,8 +7,9 @@
 
     <link rel="stylesheet" href="style.css">
          
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -39,11 +40,11 @@
             </div>
             <nav>
                 <ul id="MenuItems">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Projects </a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects </a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <img src="img/menu-icon.png" class="menu-icon" onclick="menutoggle()">
@@ -73,25 +74,31 @@
         <div class="row">
             <div class="col-md-4 text-center">
                 <img src="img/services1.jpg" width="100%" height="auto">
-                <h2>Preconstruction Planning</h2>
+                <div data-aos="fade-down">
+                    <h2>Preconstruction Planning</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores repudiandae animi 
                     autem totam quam eaque quo, vel itaque, temporibus voluptatum magni, aperiam distinctio explicabo earum possimus ut dolor velit consectetur.</p>
+                </div>
 
             </div>
 
             <div class="col-md-4 text text-center">
                 <img src="img/service3.jpg" alt="" width="100%" height="auto">
+              <div data-aos="fade-down">
                 <h2>Architectural Modeling</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure vero, nostrum eveniet provident
                      vitae maiores inventore ex, reprehenderit labore libero odio excepturi. Voluptatibus, vero. Repudiandae, quo voluptatibus? Laborum, esse ex?</p>
+              </div>
 
             </div>
 
             <div class="col-md-4 text-center">
                 <img src="img/service2.jpg" alt="" width="100%" height="auto">
+               <div data-aos="fade-down">
                 <h2>Construction Management</h2> 
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus sequi 
                     explicabo alias, sapiente voluptatibus perferendis? Commodi minus deleniti earum similique dolorem sint distinctio doloremque! Ex non quidem nostrum dignissimos aspernatur.</p>
+               </div>
             </div>
             
     </div>
@@ -165,12 +172,14 @@
                 <img src="img/about-illustrator.png" alt="illustrator" width="100%" height="auto">
             </div>
             <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam debitis sint odit omnis laudantium impedit consectetur 
-                    facilis fuga explicabo animi incidunt, adipisci, voluptates nostrum at quam sunt! Totam, sed?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores, temporibus delectus reprehenderit 
-                        beatae culpa reiciendis corporis amet illum. Tempore corrupti deserunt impedit nemo labore, esse repellendus doloribus porro alias.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, aut in quis quos sunt nisi doloremque neque reprehenderit rem alias. 
-                    Dolorum neque porro dolore fugiat cumque culpa nesciunt nemo sed.</p>
+                <div data-aos="fade-left">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam debitis sint odit omnis laudantium impedit consectetur 
+                        facilis fuga explicabo animi incidunt, adipisci, voluptates nostrum at quam sunt! Totam, sed?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores, temporibus delectus reprehenderit 
+                            beatae culpa reiciendis corporis amet illum. Tempore corrupti deserunt impedit nemo labore, esse repellendus doloribus porro alias.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, aut in quis quos sunt nisi doloremque neque reprehenderit rem alias. 
+                        Dolorum neque porro dolore fugiat cumque culpa nesciunt nemo sed.</p>
+                </div>
                     <button type="button" class="btn">Read More>>></button>
             </div>
         </div>
@@ -292,7 +301,7 @@
               </div>
         </div>
     </div>
-    <h6>&copy; 2020 Swiss construction company</h6>
+    <h6>&copy; 2023 Swiss construction company</h6>
 </section>
 
 <!-- --------js for menu toggle------------- -->
@@ -321,5 +330,14 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/all.min.js"></script>
+    <script src="path/to/smooth-scroll.polyfills.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>
